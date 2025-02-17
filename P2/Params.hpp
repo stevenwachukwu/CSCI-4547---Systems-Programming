@@ -2,6 +2,9 @@
 
 #ifndef PARAMS_HPP
 #define PARAMS_HPP
+#include <iostream>
+#include <fstream> //library used later for testing
+#include <unistd.h> //library utilized for the UNIX operating system
 #include <string>
 #include <getopt.h>
 
