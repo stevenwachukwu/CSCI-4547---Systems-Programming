@@ -1,9 +1,6 @@
 //Written by Steve Nwachukwu
 
 #include "Params.hpp"
-#include <iostream>
-#include <fstream> //library used later for testing
-#include <unistd.h> //library utilized for the UNIX operating system
 
 Params::Params(int argc, char* argv[]) {
     struct option longOptions [] {
