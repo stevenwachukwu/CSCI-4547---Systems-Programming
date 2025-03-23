@@ -10,7 +10,7 @@ class FileID {
 private:
     FileID(const string &Fname, ino_t iNode_Val, const string &path);
 
-    string FileName;
+string FileName;
 ino_t iNode;
 string Pathname;
 vector <string> foundedWords;
